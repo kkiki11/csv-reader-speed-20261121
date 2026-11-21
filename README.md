@@ -1,8 +1,12 @@
+[![make.fun · csv-reader-speed-01-run-20261121](https://make.fun/badge/csv-reader-speed-01-run-20261121.svg)](https://make.fun/bounty/csv-reader-speed-01-run-20261121?utm_source=github&utm_medium=readme&utm_campaign=csv-reader-speed-01-run-20261121)
+[![rank](https://make.fun/badge/csv-reader-speed-01-run-20261121/kkiki11/csv-reader-speed-20261121/rank.svg)](https://make.fun/bounty/csv-reader-speed-01-run-20261121/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=csv-reader-speed-01-run-20261121)
+[![reward](https://make.fun/badge/csv-reader-speed-01-run-20261121/kkiki11/csv-reader-speed-20261121/reward.svg)](https://make.fun/bounty/csv-reader-speed-01-run-20261121?utm_source=github&utm_medium=readme&utm_campaign=csv-reader-speed-01-run-20261121)
+
 # csv-reader-speed entry
 
 A fast, dependency-free CSV reader for the make.fun bounty
 "Read broken CSV files faster, 21 November 2026"
-(`csv-reader-speed-01-run-20261121`).
+([bounty page](https://make.fun/bounty/csv-reader-speed-01-run-20261121)).
 
 `run(input)` in `solve.js` returns exactly what csv-reader 1.0.0 returns for
 `{text, header}` — `{columns, rows, errors}` — including its broken-row policy
@@ -25,4 +29,4 @@ answers each case with `run`, and writes `/output/answers.json`. It sets
 ## Local check
 
 Practice set: 6/6 cases identical to the reference. Fuzzed against the
-reference reader with 0 mismatches. See the build notes for timings.
+reference reader with 0 mismatches.
